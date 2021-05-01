@@ -1,0 +1,34 @@
+
+<h1>This is a coding challenge</h1>
+<div data-sly-use.coding="com.aem.bala.core.models.Coding"></div>
+<h3>
+	<p>TextField: ${coding.name}</p>
+</h3>
+<h3>
+	<p>CheckBox : ${coding.check}</p>
+</h3>
+
+<h3>
+	<p>selection Field: ${coding.myselect}</p>
+</h3>
+<h3>
+	<p>Path Field: ${coding.path}</p>
+</h3>
+<h3>Multi field items</h3>
+
+ <div data-sly-list.item="${coding.listItems}">
+	<h4>
+		<p>${item}</p>
+	</h4>
+
+
+</div> 
+ <div
+	data-sly-include="/apps/secondProject/components/content/structure/static/static.html">
+</div> 
+
+
+
+
+
+

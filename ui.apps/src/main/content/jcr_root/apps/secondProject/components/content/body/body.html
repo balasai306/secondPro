@@ -1,0 +1,64 @@
+<h1>Hello world# *****</h1>
+
+<div
+	data-sly-use.body="${'com.aem.bala.core.models.Sample' @ rAttri='TestAttri'   }"></div>
+<div>First name: ${body.name}</div>
+<div>Age: ${body.age}</div>
+<div>check: ${body.check}</div>
+<div>Title: ${body.pageTitle}</div>
+<div>Request Attribute:${body.requestAttribute}</div>
+
+<div data-sly-use.book="com.aem.bala.core.models.Books">
+	<h1>${book.name}</h1>
+	<div data-sly-list.item="${book.books}">
+		BookCount:${itemList.count}
+		<p>Book:${item}</p>
+	</div>
+	<p>Book:${book.books @ join=','}</p>
+    <div data-sly-list.item="${book.bookDetails}">
+    
+-------someThing----------
+<p> BookName : <b>${item.bookName}</b></p>
+<p> BookYear : <b>${item.bookYear}</b></p>
+
+</div>
+
+<h1>Selection:${properties.myselect}</h1>
+<h1>Radio:${properties.radio}</h1>
+------------------------------
+<h3>Books with list</h3>
+<ol data-sly-list="${book.books}">
+<li>${item}</li>
+</ol>
+------------------------------
+
+<h3>Books with list</h3>
+<!-- repeat will repeat whole block end to end but list will iterate inside block  -->
+<ol data-sly-repeat="${book.books}">
+<li>${item}</li>
+</ol>
+------------------------------
+
+<h3>list props</h3>
+<ol data-sly-repeat="${book.books}">
+<sly data-sly-test="${itemList.first}"><li>first:${item}</li></sly>
+<sly data-sly-test="${itemList.middle}"><li>middle:${item}</li></sly>
+<sly data-sly-test="${itemList.last}"><li>last:${item}</li></sly>
+
+</ol>
+------------------------------
+<!-- test and unwrap -->
+<div data-sly-test="${wcmmode.edit}" data-sly-unwrap>This is in
+edit mode</div>
+
+This is in edit mode
+
+<!-- we can also write unwrap using directly <sly> -->
+<br>
+<sly>Hello with sly</sly>
+
+<!-- <div data-sly-include="/page2.html"></div>
+<div data-sly-include="/style.css">Text with style</div> -->
+
+<p data-sly-text="${properties.name}">Hello</p>
+
