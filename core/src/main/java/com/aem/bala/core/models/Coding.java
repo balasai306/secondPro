@@ -4,32 +4,34 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 import org.apache.sling.api.SlingHttpServletRequest;
+import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.Via;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
-@Model(adaptables = SlingHttpServletRequest.class, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+@Model(adaptables = Resource.class, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class Coding {
-
-	@ValueMapValue
+	String values;
+	@Inject
 	String name;
 
 	@Inject
-	@Via("resource")
+	
 	boolean check;
 
-	@ValueMapValue
+	@Inject
 	String myselect;
 
 	@Inject
-	@Via("resource")
+
 	String path;
 
-	@ValueMapValue
+	@Inject
 	private List<String> fieldItem;
 
 	public String getName() {
@@ -56,4 +58,18 @@ public class Coding {
 		}
 
 	}
+	
+	@PostConstruct
+	public void init() {
+		values=name+myselect+check+path;
+		
+		
+		
+	}
+	public String getValues() {
+		return values;
+		
+	}
+	
+	
 }
