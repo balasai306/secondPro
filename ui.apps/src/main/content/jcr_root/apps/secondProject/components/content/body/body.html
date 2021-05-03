@@ -1,12 +1,12 @@
 <h1>Hello world####### *****</h1>
 
 <div
-	data-sly-use.body="${'com.aem.bala.core.models.Sample' @ rAttri='TestAttri'   }"></div>
+	data-sly-use.body="com.aem.bala.core.models.Sample"></div>
 <div>First name: ${body.name}</div>
 <div>Age: ${body.age}</div>
 <div>check: ${body.check}</div>
 <div>Title: ${body.pageTitle}</div>
-<div>Request Attribute:${body.requestAttribute}</div>
+
 
 <div data-sly-use.book="com.aem.bala.core.models.Books">
 	<h1>${book.name}</h1>
@@ -22,10 +22,23 @@
 <p> BookYear : <b>${item.bookYear}</b></p>
 
 </div>
+</div>
 
 <h1>Selection:${properties.myselect}</h1>
 <h1>Radio:${properties.radio}</h1>
-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ------------------------------
 <h3>Books with list</h3>
 <ol data-sly-list="${book.books}">
 <li>${item}</li>
@@ -33,7 +46,7 @@
 ------------------------------
 
 <h3>Books with list</h3>
-<!-- repeat will repeat whole block end to end but list will iterate inside block  -->
+repeat will repeat whole block end to end but list will iterate inside block 
 <ol data-sly-repeat="${book.books}">
 <li>${item}</li>
 </ol>
@@ -47,18 +60,17 @@
 
 </ol>
 ------------------------------
-<!-- test and unwrap -->
-<div data-sly-test="${wcmmode.edit}" data-sly-unwrap>This is in
-edit mode</div>
+
 
 This is in edit mode
 
-<!-- we can also write unwrap using directly <sly> -->
+we can also write unwrap using directly <sly>
 <br>
 <sly>Hello with sly</sly>
 
-<!-- <div data-sly-include="/page2.html"></div>
-<div data-sly-include="/style.css">Text with style</div> -->
+<div data-sly-include="/page2.html"></div>
+<div data-sly-include="/style.css">Text with style</div>
 
 <p data-sly-text="${properties.name}">Hello</p>
 
+ -->

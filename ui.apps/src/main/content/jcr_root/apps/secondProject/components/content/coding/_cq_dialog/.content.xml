@@ -23,7 +23,8 @@
                         checked="{Boolean}true"
                         fieldLabel="Check box"
                         name="./check"
-                        unchecked="{Boolean}false"/>
+                        unchecked="{Boolean}false"
+                        value="{Boolean}true"/>
                     <selection
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/foundation/form/select"

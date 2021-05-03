@@ -44,7 +44,7 @@ public class OsgiConfig {
 	}
 
 	public String getServiceRunMode() {
-		return name;
+		return runMode;
 	}
 
 }

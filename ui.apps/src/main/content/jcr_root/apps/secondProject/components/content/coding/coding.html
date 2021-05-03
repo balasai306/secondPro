@@ -6,26 +6,34 @@
 </h3>
 <h3>
 	<p>CheckBox : ${coding.check}</p>
-</h3>
 
+</h3>
+<div data-sly-test="${coding.check}=='true' ">it is true</div>
 <h3>
-	<p>selection Field: ${coding.myselect}</p>
+	<p>selection Field: ${coding.select}</p>
 </h3>
 <h3>
 	<p>Path Field: ${coding.path}</p>
 </h3>
 <h3>Multi field items</h3>
 
- <div data-sly-list.item="${coding.listItems}">
+<div data-sly-list.item="${coding.listItems}">
 	<h4>
 		<p>${item}</p>
 	</h4>
 
 
-</div> 
- <div
+</div>
+
+
+<div
 	data-sly-include="/apps/secondProject/components/content/structure/static/static.html">
-</div> 
+</div>
+<br>
+<h4>Template and call</h4>
+<template data-sly-template.temp>This is a template</template>
+
+<div data-sly-call="${temp}"></div>
 
 
 
