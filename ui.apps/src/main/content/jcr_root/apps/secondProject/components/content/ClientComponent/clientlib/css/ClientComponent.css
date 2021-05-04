@@ -1,0 +1,30 @@
+.cmp-cc--container2{
+    background-color: aquamarine;
+
+}
+.cmp-cc--container_blue{
+    background-color: blueviolet;
+
+}
+.cmp-cc--container{
+    background-color: orangered;
+
+}
+.cmp-cc_ele{
+    text-align: center;
+
+}
+.cmp-cc_ele_left{
+    text-align: left;
+
+}
+.cmp-cc_ele_right{
+    text-align: right;
+
+}
+.cmp-cc_ele_italic{
+    font-style: italic;
+}
+.cmp-cc_ele1_normal{
+    font-style: normal;
+}

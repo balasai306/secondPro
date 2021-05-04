@@ -1,13 +1,14 @@
 <h1>this is a osgi component</h1>
-<div data-sly-use.osgi=com.aem.bala.core.models.OsgiImpl></div>
+<div data-sly-use.osgi=com.aem.bala.core.models.OsgiImpl>
 
-<p>Service Name:${osgi.name}</p>
-<p>Service Count:${osgi.count}</p>
-<p>Service Data:${osgi.liveData}</p>
+<p>Service Name:${osgi.serviceName}</p>
+<p>Service Count:${osgi.serviceCount}</p>
+<p>Service Data:${osgi.serviceLiveData}</p>
 
-<p>Service Mode:${osgi.runMode}</p>
+<p>Service Mode:${osgi.serviceRunMode}</p>
 <p>Service Region:
-<ol data-sly-list="${osgi.region}">
+<ol data-sly-list="${osgi.serviceRegion}">
 	<li>${item}</li>
 </ol>
 </p>
+</div>
