@@ -39,7 +39,7 @@ public class ResourceResolverImpl implements ResourceResolverItr {
 
 		try {
 
-			final String SERVICE_USER = "BalasaiSystem";
+			final String SERVICE_USER = "balasystem";
 
 			Map<String, Object> paramMap = new HashMap<>();
 
