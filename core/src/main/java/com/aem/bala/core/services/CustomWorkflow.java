@@ -12,7 +12,8 @@ import com.adobe.granite.workflow.exec.WorkItem;
 import com.adobe.granite.workflow.exec.WorkflowProcess;
 import com.adobe.granite.workflow.metadata.MetaDataMap;
 
-@Component(service = WorkflowProcess.class, immediate = true, property = { "process.label" + "=customStep1",
+@Component(service = WorkflowProcess.class, immediate = true, property = {
+		"process.label" + "=customStep1",
 		Constants.SERVICE_DESCRIPTION + "=Step1", Constants.SERVICE_VENDOR + "=Mindtree"
 
 }

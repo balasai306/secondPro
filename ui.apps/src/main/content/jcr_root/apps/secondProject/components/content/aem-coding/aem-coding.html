@@ -1,0 +1,18 @@
+
+<div data-sly-use.code="com.aem.bala.core.models.AemCodingChallenge">
+	<div>Book Category: ${code.bookCategory}</div>
+	<div>Check : ${code.check}</div>
+	<div>Next work : ${code.select}</div>
+
+
+</div>
+<h1>Book Titles</h1>
+<div data-sly-list.item="${code.bookTitles}">
+
+	<p>
+	<ul>
+		<li>${item}</li>
+	</ul>
+	</p>
+</div>
+
