@@ -5,6 +5,7 @@ public class PageModel {
 	private String pageTemplate;
 	private String pageTitle;
 	private String pageParent;
+	private String pageDescreption;
 
 	public PageModel() {
 		super();
@@ -17,6 +18,14 @@ public class PageModel {
 		this.pageTemplate = pageTemplate;
 		this.pageTitle = pageTitle;
 		this.pageParent = pageParent;
+	}
+
+	public String getPageDescreption() {
+		return pageDescreption;
+	}
+
+	public void setPageDescreption(String pageDescreption) {
+		this.pageDescreption = pageDescreption;
 	}
 
 	public String getPageName() {
@@ -50,5 +59,6 @@ public class PageModel {
 	public void setPageParent(String pageParent) {
 		this.pageParent = pageParent;
 	}
+
 
 }

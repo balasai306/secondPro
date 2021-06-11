@@ -1,0 +1,8 @@
+pageName,pageTemplate,pageTitle,pageParent,description
+productone,/conf/secondProject/settings/wcm/templates,product one title,/content/secondProject/en,product one description
+producttwo,/conf/secondProject/settings/wcm/templates,product two title,/content/secondProject/en,product two description
+productthree,/conf/secondProject/settings/wcm/templates,product three title,/content/secondProject/en,product three description
+productfour,/conf/secondProject/settings/wcm/templates,product four title,/content/secondProject/en,product four description
+productfive,/conf/secondProject/settings/wcm/templates,product five title,/content/secondProject/en,product five description
+productsix,/conf/secondProject/settings/wcm/templates,product six title,/content/secondProject/en,product six description
+productseven,/conf/secondProject/settings/wcm/templates,product seven title,/content/secondProject/en,product seven description

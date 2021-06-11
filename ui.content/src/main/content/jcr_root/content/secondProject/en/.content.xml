@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:allowedTemplates="/conf/secondProject/settings/wcm/templates/.*"
+        cq:allowedTemplates="[/conf/secondProject/settings/wcm/templates/.*,/conf/Templetes/settings/wcm/templates/.*]"
         cq:contextHubPath="/libs/settings/cloudsettings/legacy/contexthub"
         cq:contextHubSegmentsPath="/conf/secondProject/settings/wcm/segments"
-        cq:lastModified="{Date}2021-05-04T13:33:52.932+05:30"
+        cq:lastModified="{Date}2021-05-12T21:45:51.773+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/secondProject/settings/wcm/templates/content-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="English"
+        jcr:uuid="16e04a1c-b15e-4f7b-a652-e602a2da0271"
         sling:resourceType="secondProject/components/structure/page"
         pageTitle="New Project"
         socialMedia="[facebook]">
@@ -141,4 +144,17 @@
         </root>
     </jcr:content>
     <sample/>
+    <sample0/>
+    <about/>
+    <ootb/>
+    <Content-1/>
+    <style/>
+    <AEMcode/>
+    <mountains/>
+    <surfer/>
+    <northenlights/>
+    <English/>
+    <fr/>
+    <hi/>
+    <de/>
 </jcr:root>

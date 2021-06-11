@@ -36,7 +36,7 @@ public class FirstWorkFlow extends SlingSafeMethodsServlet {
 		try {
 			if (StringUtils.isNotBlank(payload)) {
 				WorkflowSession wfs = resourceResolver.adaptTo(WorkflowSession.class);
-				WorkflowModel wfm = wfs.getModel("/var/workflow/models/Flow1");
+				WorkflowModel wfm = wfs.getModel("/var/workflow/models/workFlow2");
 				WorkflowData wfd = wfs.newWorkflowData("JCR_PATH", payload);
 				status = wfs.startWorkflow(wfm, wfd).getState();
 

@@ -1,0 +1,14 @@
+<h1>this is a osgi component</h1>
+<div data-sly-use.osgi=com.aem.bala.core.models.OsgiReviewModel>
+
+<p>Name:${osgi.osgiName}</p>
+
+<p>Check Box:${osgi.osgiCheckBox}</p>
+
+<p>options:${osgi.osgiOptions}</p>
+<p>Multi filed
+<ol data-sly-list="${osgi.osgiMultiField}">
+	<li>${item}</li>
+</ol>
+</p>
+</div>

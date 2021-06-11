@@ -8,12 +8,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2021-05-05T22:41:04.910+05:30"
+                        jcr:lastModified="{Date}2021-05-21T15:36:12.356+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="secondProject Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:General,group:second,group:secondProject,group:secondProject Form,/apps/secondProject/components/content/ClientComponent,/apps/secondProject/components/content/coding]"
+                        components="[group:General,group:second,group:secondProject,group:secondProject Form,/apps/weretail/components/content/heroimage,/apps/secondProject/components/content/ClientComponent,/apps/secondProject/components/content/coding]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -57,7 +57,7 @@
             <content jcr:primaryType="nt:unstructured">
                 <text jcr:primaryType="nt:unstructured">
                     <policy_1620129859161
-                        jcr:lastModified="{Date}2021-05-06T09:44:35.526+05:30"
+                        jcr:lastModified="{Date}2021-05-14T14:27:37.085+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Colors"
@@ -213,15 +213,46 @@
                         </cq:styleGroups>
                     </policy_1620129859161>
                 </text>
-                <title jcr:primaryType="nt:unstructured"/>
+                <title jcr:primaryType="nt:unstructured">
+                    <policy_1620982517824
+                        jcr:lastModified="{Date}2021-05-14T14:26:08.283+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="colors"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedTypes="[h1,h2,h3,h4,h5,h6]"
+                        linkDisabled="false"
+                        type="h1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="color"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-cc--container_blue"
+                                        cq:styleId="1620982531741"
+                                        cq:styleLabel="blue"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-cc--container"
+                                        cq:styleId="1620982543470"
+                                        cq:styleLabel="orange"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1620982517824>
+                </title>
+                <text-1 jcr:primaryType="nt:unstructured"/>
             </content>
         </components>
     </secondProject>
-    <rep:policy/>
     <foundation jcr:primaryType="nt:unstructured">
         <components jcr:primaryType="nt:unstructured">
             <text jcr:primaryType="nt:unstructured"/>
             <title jcr:primaryType="nt:unstructured"/>
         </components>
     </foundation>
+    <rep:policy/>
 </jcr:root>

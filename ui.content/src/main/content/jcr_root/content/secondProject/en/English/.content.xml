@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/libs/settings/cloudsettings/legacy/contexthub"
+        cq:contextHubSegmentsPath="/conf/secondProject/settings/wcm/segments"
+        cq:lastModified="{Date}2021-06-03T12:20:51.136+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/Templetes/settings/wcm/templates/temp1"
+        jcr:description="this is a english page in second project"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        jcr:uuid="8e20f388-f328-48cd-9b16-f7ec73efce89"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:lastModified="{Date}2021-05-13T11:05:27.265+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <seocontent
+                jcr:created="{Date}2021-06-03T12:20:22.594+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-06-03T12:20:22.594+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="secondProject/components/content/seocontent"/>
+        </root>
+    </jcr:content>
+</jcr:root>

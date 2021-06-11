@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c312829e-fd26-4f6d-b59e-89bf1c72f711">
+    <jcr:content
+        cq:name="content-frag-1"
+        cq:parentPath="/content/dam/secondProject/contentfrag-folder"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-05-13T13:28:06.149+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="content-frag-1"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-05-13T13:28:06.150+05:30">
+        <comments
+            jcr:created="{Date}2021-05-13T13:25:19.141+05:30"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-05-13T13:25:19.216+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[mix:lastModified]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/comments/components/collection">
+            <rules_for_cricket
+                jcr:created="{Date}2021-05-13T13:25:19.216+05:30"
+                jcr:createdBy="admin"
+                jcr:description="Rules for cricket"
+                jcr:lastModified="{Date}2021-05-13T13:25:19.216+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[mix:lastModified]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/comments/components/comment"
+                annotationData="\{&quot;texts&quot;:[&quot;Rules for cricket&quot;],&quot;variation&quot;:&quot;master&quot;,&quot;element&quot;:&quot;Sports&quot;}"
+                author="admin"/>
+        </comments>
+        <data
+            cq:model="/conf/secondProject/settings/dam/cfm/models/content-frag-1"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                age="{Double}22.0"
+                age_x0040_LastModified="{Date}2021-05-13T13:28:05.940+05:30"
+                Dob="{Date}2021-05-13T13:20:00.000+05:30"
+                Dob_x0040_LastModified="{Date}2021-05-13T13:28:05.940+05:30"
+                intrests="Cricket"
+                intrests_x0040_LastModified="{Date}2021-05-13T13:28:05.941+05:30"
+                name="Kacharla Balasai Nikhil"
+                name_x0040_LastModified="{Date}2021-05-13T13:28:05.937+05:30"
+                Sports="&lt;h2 style=&quot;text-align: left;&quot;>&lt;span class=&quot;rte-annotation&quot; data-annotation=&quot;rules_for_cricket&quot;>Cricket rules&lt;/span>&lt;/h2>&#xa;&lt;p style=&quot;text-align: left;&quot;>There are two teams: The team bowling has 11 players on the field. The team batting has two players, one at each end of the pitch (also sometimes called the wicket).&lt;/p>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>The rest of the batting team are off the field.&lt;/li>&#xa;&lt;li style=&quot;text-align: left;&quot;>Runs are got after a ball is bowled, mostly by hitting the ball&amp;nbsp;and running, or by hitting the ball to or over the boundary.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;text-align: left;&quot;>The captain of the bowling team chooses a bowler from his team; the other players are called 'fielders'.&lt;/p>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>The bowler is trying to aim the ball at a wicket, which is made up of three sticks (called stumps) stuck into the earth, with two small sticks (called bails) balanced on them.&lt;/li>&#xa;&lt;li style=&quot;text-align: left;&quot;>One of the fielders, called the 'wicket keeper', stands behind the wicket to catch the ball if the bowler misses the wicket.&lt;/li>&#xa;&lt;li style=&quot;text-align: left;&quot;>The other fielders may chase the ball after the batsman has hit it.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;text-align: left;&quot;>The bowler runs towards his wicket, and bowls towards the batsman at the other wicket.&lt;/p>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>He does&amp;nbsp;not&amp;nbsp;throw the ball. He bowls the ball overarm with a &amp;quot;straight arm&amp;quot; (defined further in the rules and the guidance to umpires). If he bends his arm, the other teams are given one run and he has to bowl the ball again.&lt;/li>&#xa;&lt;li style=&quot;text-align: left;&quot;>An 'over' is six balls, meaning he bowls six times. Then another player becomes the bowler for the next over, and bowls from the other end, and so on. The same bowler cannot bowl two overs one after the other.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;text-align: left;&quot;>The batsman is trying to defend the wicket from getting hit with the ball. He does this with a bat. When he hits the ball with his bat, he may run toward the other wicket.&lt;/p>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>To score a run:&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>The two batsmen must both run from their wicket to the other wicket before they can be run out. Being run out is explained below. The batsmen can run between the wickets as many times as they want, with one run scored each time they do this.&lt;/li>&#xa;&lt;li style=&quot;text-align: left;&quot;>If the ball leaves the field after being hit without bouncing, six runs are scored.&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>If the ball rolls or bounces out, whether or not the batter hit it, it counts as four runs.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;text-align: left;&quot;>There are different ways that a batsman can get out. The most common ways are:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>The batsman misses the ball and the ball hits the wicket: called&amp;nbsp;bowled, or being &amp;quot;bowled out&amp;quot;.&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>The ball hits the batsman's body when it would have hit the wicket otherwise. Called&amp;nbsp;LBW&amp;nbsp;(leg before wicket). The way this rule is applied is complicated; this is just the general idea.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>A fielder catches the ball after the batsman hits it, and before it bounces or leaves the field: called&amp;nbsp;caught.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>While the batsmen are running, a fielder can throw the ball at the wicket. If the batsmen cannot finish the run in time, and the ball hits the wicket, the batsman nearer to the wicket that is hit is out: this is called&amp;nbsp;run out.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;text-align: left;&quot;>When a batsman is out, another comes onto the field to take his place. The innings is over when ten wickets are taken (i.e. ten of the eleven batsmen are out). After this, the team which was the 'fielding' team becomes the 'batting' team. They now have to score more runs than the other team managed to score. If they score more runs before ten wickets are taken, they win. If they do not, the other team wins.&lt;/p>&#xa;&lt;p style=&quot;text-align: left;&quot;>In a one-day game, each side has one innings, and innings are limited to a certain number of overs. In longer formats each side has two innings, and there is no specific limit to the number of overs in an innings.&lt;/p>&#xa;&lt;h2>&amp;nbsp;&lt;/h2>&#xa;"
+                Sports_x0040_ContentType="text/html"
+                Sports_x0040_LastModified="{Date}2021-05-13T13:28:05.942+05:30"/>
+            <var1
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                age="{Double}22.0"
+                age_x0040_LastModified="{Date}2021-05-13T13:24:23.148+05:30"
+                Dob="{Date}2021-05-13T13:20:00.000+05:30"
+                Dob_x0040_LastModified="{Date}2021-05-13T13:24:23.149+05:30"
+                intrests="Cricket"
+                intrests_x0040_LastModified="{Date}2021-05-13T13:24:23.151+05:30"
+                name="Kacharla Balasai Nikhil"
+                name_x0040_LastModified="{Date}2021-05-13T13:24:23.147+05:30"
+                Sports="&lt;h2 style=&quot;text-align: left;&quot;>Cricket rules&lt;/h2>&#xa;&lt;p style=&quot;text-align: left;&quot;>There are two teams: The team bowling has 11 players on the field. The team batting has two players, one at each end of the pitch (also sometimes called the wicket).&lt;/p>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>The rest of the batting team are off the field.&lt;/li>&#xa;&lt;li style=&quot;text-align: left;&quot;>Runs are got after a ball is bowled, mostly by hitting the ball&amp;nbsp;and running, or by hitting the ball to or over the boundary.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;text-align: left;&quot;>The captain of the bowling team chooses a bowler from his team; the other players are called 'fielders'.&lt;/p>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>The bowler is trying to aim the ball at a wicket, which is made up of three sticks (called stumps) stuck into the earth, with two small sticks (called bails) balanced on them.&lt;/li>&#xa;&lt;li style=&quot;text-align: left;&quot;>One of the fielders, called the 'wicket keeper', stands behind the wicket to catch the ball if the bowler misses the wicket.&lt;/li>&#xa;&lt;li style=&quot;text-align: left;&quot;>The other fielders may chase the ball after the batsman has hit it.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;text-align: left;&quot;>The bowler runs towards his wicket, and bowls towards the batsman at the other wicket.&lt;/p>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>He does&amp;nbsp;not&amp;nbsp;throw the ball. He bowls the ball overarm with a &amp;quot;straight arm&amp;quot; (defined further in the rules and the guidance to umpires). If he bends his arm, the other teams are given one run and he has to bowl the ball again.&lt;/li>&#xa;&lt;li style=&quot;text-align: left;&quot;>An 'over' is six balls, meaning he bowls six times. Then another player becomes the bowler for the next over, and bowls from the other end, and so on. The same bowler cannot bowl two overs one after the other.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;text-align: left;&quot;>The batsman is trying to defend the wicket from getting hit with the ball. He does this with a bat. When he hits the ball with his bat, he may run toward the other wicket.&lt;/p>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>To score a run:&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>The two batsmen must both run from their wicket to the other wicket before they can be run out. Being run out is explained below. The batsmen can run between the wickets as many times as they want, with one run scored each time they do this.&lt;/li>&#xa;&lt;li style=&quot;text-align: left;&quot;>If the ball leaves the field after being hit without bouncing, six runs are scored.&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>If the ball rolls or bounces out, whether or not the batter hit it, it counts as four runs.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;text-align: left;&quot;>There are different ways that a batsman can get out. The most common ways are:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>The batsman misses the ball and the ball hits the wicket: called&amp;nbsp;bowled, or being &amp;quot;bowled out&amp;quot;.&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>The ball hits the batsman's body when it would have hit the wicket otherwise. Called&amp;nbsp;LBW&amp;nbsp;(leg before wicket). The way this rule is applied is complicated; this is just the general idea.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>A fielder catches the ball after the batsman hits it, and before it bounces or leaves the field: called&amp;nbsp;caught.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>While the batsmen are running, a fielder can throw the ball at the wicket. If the batsmen cannot finish the run in time, and the ball hits the wicket, the batsman nearer to the wicket that is hit is out: this is called&amp;nbsp;run out.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p style=&quot;text-align: left;&quot;>When a batsman is out, another comes onto the field to take his place. The innings is over when ten wickets are taken (i.e. ten of the eleven batsmen are out). After this, the team which was the 'fielding' team becomes the 'batting' team. They now have to score more runs than the other team managed to score. If they score more runs before ten wickets are taken, they win. If they do not, the other team wins.&lt;/p>&#xa;&lt;p style=&quot;text-align: left;&quot;>In a one-day game, each side has one innings, and innings are limited to a certain number of overs. In longer formats each side has two innings, and there is no specific limit to the number of overs in an innings.&lt;/p>&#xa;&lt;p style=&quot;text-align: left;&quot;>Finished&lt;/p>&#xa;&lt;h2>&amp;nbsp;&lt;/h2>&#xa;"
+                Sports_x0040_ContentType="text/html"
+                Sports_x0040_LastModified="{Date}2021-05-13T13:24:23.152+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <var1
+                    jcr:description="var1"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="var1"
+                    name="var1">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[name:ccdfb8d7-866b-4bf0-92c9-15732f0cfdf7,age:ccdfb8d7-866b-4bf0-92c9-15732f0cfdf7,Dob:ccdfb8d7-866b-4bf0-92c9-15732f0cfdf7,intrests:ccdfb8d7-866b-4bf0-92c9-15732f0cfdf7,Sports:ccdfb8d7-866b-4bf0-92c9-15732f0cfdf7]"/>
+                </var1>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

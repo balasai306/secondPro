@@ -21,6 +21,10 @@ import com.aem.bala.core.services.CreatingPage;
 @SlingServletPaths(value = { "/bin/csvToPage" })
 public class PageCreation extends SlingSafeMethodsServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private static final Logger LOG = LoggerFactory.getLogger(PageCreation.class);
 	@Reference
 	CreatingPage creatingPage;

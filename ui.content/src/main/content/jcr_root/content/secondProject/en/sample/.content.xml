@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-05-07T18:42:16.394+05:30"
+        cq:lastModified="{Date}2021-05-21T17:12:57.352+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/secondProject/settings/wcm/templates/content-page"
         jcr:primaryType="cq:PageContent"
@@ -204,7 +204,7 @@
                 <button
                     jcr:created="{Date}2021-05-05T13:16:58.002+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-05-05T13:17:54.956+05:30"
+                    jcr:lastModified="{Date}2021-05-14T13:03:26.865+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Click here"
@@ -217,6 +217,13 @@
                             width="3"/>
                     </cq:responsive>
                 </button>
+                <text
+                    jcr:created="{Date}2021-05-12T22:38:39.149+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-05-12T22:38:39.149+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/text"/>
                 <carousel
                     jcr:created="{Date}2021-05-05T13:21:25.975+05:30"
                     jcr:createdBy="admin"
@@ -227,6 +234,22 @@
                     autopauseDisabled="true"
                     autoplay="true"
                     delay="1000">
+                    <textimage
+                        jcr:created="{Date}2021-05-12T22:40:45.618+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-05-12T22:42:27.153+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/textimage">
+                        <image
+                            jcr:lastModified="{Date}2021-05-12T22:42:27.153+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/camp-tent.jpg"
+                            height="300"
+                            width="600"/>
+                    </textimage>
                     <image_198608631
                         cq:panelTitle="Surffing"
                         jcr:created="{Date}2021-05-05T13:28:08.581+05:30"
@@ -273,7 +296,7 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             behavior="none"
-                            offset="2"
+                            offset="3"
                             width="9"/>
                     </cq:responsive>
                 </carousel>
@@ -570,11 +593,11 @@
                 cq:styleIds="[1620234326204,1620129911646]"
                 jcr:created="{Date}2021-05-05T22:37:09.245+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-05-05T22:37:37.180+05:30"
+                jcr:lastModified="{Date}2021-05-14T13:00:41.456+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="secondProject/components/content/text"
-                text="&lt;p>This ia Client lib componenet&lt;/p>&#xa;"
+                text="&lt;p>This ia Client lib componenet&lt;/p>&#xd;&#xa;"
                 textIsRich="true"/>
             <text_515904817
                 cq:styleIds="[1620130091761,1620234354835]"
@@ -586,27 +609,26 @@
                 sling:resourceType="secondProject/components/content/text"
                 text="&lt;p>welcome to my page&lt;/p>&#xa;"
                 textIsRich="true"/>
-            <clientcomponent_1212402815
-                jcr:created="{Date}2021-05-06T09:49:58.216+05:30"
+            <text_1553913342
+                cq:styleIds="[1620130091761]"
+                jcr:created="{Date}2021-05-14T14:15:28.682+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-05-06T09:49:58.216+05:30"
+                jcr:lastModified="{Date}2021-05-14T14:18:16.981+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="secondProject/components/content/ClientComponent"/>
-            <testresource_335427406
-                jcr:created="{Date}2021-05-07T18:38:22.739+05:30"
+                sling:resourceType="secondProject/components/content/text"
+                text="&lt;p>hi&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <carousel
+                jcr:created="{Date}2021-05-21T15:24:06.667+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-05-07T18:38:22.739+05:30"
+                jcr:lastModified="{Date}2021-05-21T15:24:21.145+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="secondProject/components/content/testResource"/>
-            <testresource
-                jcr:created="{Date}2021-05-07T18:42:16.364+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-05-07T18:42:16.364+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="secondProject/components/content/testResource"/>
+                sling:resourceType="secondProject/components/content/carousel"
+                autopauseDisabled="false"
+                autoplay="true"
+                delay="5000"/>
         </root>
     </jcr:content>
 </jcr:root>
