@@ -30,44 +30,19 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333333;
-            width: 1150px;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 16px;
-            text-decoration: none;
-        }
-
-        li a:hover {
-            background-color: #111111;
-        }
-    </style>
+     <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+        data-sly-call="${clientlib.css @ categories='headerclientlib'}" />
 </head>
 
 <body style="background-color:lightgray;font-size: 14px;">
-
-    <div class="container" style="background-color:lightcoral; height:175px;">
+    <div class="container" style="background-color:lightcoral; height:auto;">
         <hr>
 
         <div class="row" style="height: 125px; border: 2px solid black;">
             <div class="col-3">
 
                 <a class="navbar-brand" href="#">
-                    <img src="images/northern-lights.jpg" width="250px" height="100px" class="d-inline-block align-top"
+                    <img src="/content/dam/secondProject/English/Images/northern-lights.jpg" width="250px" height="100px" class="d-inline-block align-top"
                         alt="">
                 </a>
 
@@ -92,22 +67,22 @@
         </div>
         <div class="row">
 
-            <ul>
-                <li class="col-1"><a href="#about">${header.title}</a></li>
+            <ul class="cmp-header--unorderedlist">
+                <li class="col-1 cmp-header--unorderedlist_list"><a href="#about">About</a></li>
 
-                <li class="col-1"><a href="#browse">Browse</a></li>
+                <li class="col-1 cmp-header--unorderedlist_list"><a href="#browse">Browse</a></li>
 
 
-                <li class="col-1"><a href="#used">Used</a></li>
+                <li class="col-1 cmp-header--unorderedlist_list"><a href="#used">Used</a></li>
 
-                <li class="col-2"><a href="#staffpick">Staff-Pick</a></li>
-                <li class="col-1"><a href="#sellbooks">SellBooks</a></li>
+                <li class="col-2 cmp-header--unorderedlist_list"><a href="#staffpick">StaffPick</a></li>
+                <li class="col-1 cmp-header--unorderedlist_list"><a href="#sellbooks">SellBooks</a></li>
 
-                <li class="col-1"><a href="#blog">Blog</a></li>
+                <li class="col-1 cmp-header--unorderedlist_list"><a href="#blog">Blog</a></li>
 
-                <li class="col-1"><a href="#events">Events</a></li>
+                <li class="col-1 cmp-header--unorderedlist_list"><a href="#events">Events</a></li>
 
-                <li class="col-2"><a href="#find">Find-a-Store</a></li>
+                <li class="col-2 cmp-header--unorderedlist_list"><a href="#find">Find-a-Store</a></li>
             </ul>
 
         </div>
